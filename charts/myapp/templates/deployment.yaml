@@ -24,7 +24,7 @@ spec:
         - containerPort: 8080
         resources: {}
       imagePullSecrets:
-      - name: regcred
+      - name: docker
 
 
 status: {}
