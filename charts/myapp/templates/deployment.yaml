@@ -18,7 +18,7 @@ spec:
         run: hello-server-myapp
     spec:
       containers:
-      - image: index.docker.io/ichtestemalwieder/myapp:latest
+      - image: ichtestemalwieder/myapp:latest
         name: hello-server-myapp
         ports:
         - containerPort: 8080
